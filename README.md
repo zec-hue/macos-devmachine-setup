@@ -1,5 +1,7 @@
 # Machine Setup
-The following is a `.sh` script that you can reuse to setup a new machine
+The following is a `.sh` script that you can reuse to setup a new machine.
+
+This script is valid for application and framework versions as-of September 2025
 
 ```sh
 #!/bin/bash
