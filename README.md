@@ -62,8 +62,8 @@ echo "📦 Installing Helm v3.19 (LTS)..."
 brew install helm
 
 # Frontend tooling
-echo "🅰️ Installing Angular CLI 17 (latest LTS)..."
-npm install -g @angular/cli@17
+echo "🅰️ Installing Angular CLI 20 (latest LTS)..."
+npm install -g @angular/cli@20
 
 # Git and GitHub
 echo "🔐 Installing Git, GnuPG, and GitHub CLI..."
