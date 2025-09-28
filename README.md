@@ -72,6 +72,13 @@ echo "🔐 Installing Git, GnuPG, and GitHub CLI..."
 brew install git
 brew install gnupg
 brew install gh
+brew install git-credential-manager
+
+# Configure Git
+git config --global --get-all credential.helper
+git config --global --unset-all credential.helper
+git config --global credential.helper manager
+git config --global --get credential.helper
 
 # Containers
 echo "🐳 Installing Docker Desktop..."
